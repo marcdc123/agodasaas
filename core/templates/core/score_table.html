@@ -1,0 +1,16 @@
+<table>
+    <thead>
+      <tr>
+        <th>User</th>
+        <th>Score</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for user_score in user_scores %}
+        <tr>
+          <td>{{ user_score.user }}</td>
+          <td>{{ user_score.score }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
