@@ -1,7 +1,7 @@
 # agodasaas
 
 To use the saas: 
-1) git clone the URL
+1) git clone the URL https://github.com/marcdc123/agodasaas.git
 2) create a pip environment
 3) pip install -r requirement.txt
 4) type python manage.py runserver
